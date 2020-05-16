@@ -16,16 +16,15 @@ module pc_reg(
 		if (rst == `RstEnable) begin		//复位
 			ce <= `ChipDisable;				//禁用指令存储器芯片
 		end else begin
-			ce <= `ChipEnable;				//启用指令存储器
+			ce <= `ChipEnable;					//启用指令存储器
 		end
 	end
 	
-	//实现功能：指令每次+4
 	always @(posedge clk) begin
 		if (ce == `ChipDisable) begin		//如果指令存储器是禁用的
 			pc <= 32'h0000_0000;
 		end else begin
-			pc <= pc + 4'h4;			
+			pc <= pc + 4'h4;			//实现功能：指令每次+4
 		end
 	end
 

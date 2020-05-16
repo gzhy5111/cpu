@@ -16,9 +16,6 @@
 //32位零
 `define ZeroWord			32'h00000000;
 
-// 指令有效
-`define InstVaild			1'b1;			
-
 //********************	与通用寄存器Regfile有关的宏定义fine	*********************
 `define RegNumLog2		5
 
