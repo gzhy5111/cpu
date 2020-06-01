@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for cpu
-Mon Jun 01 16:52:20 2020
+Mon Jun 01 17:23:28 2020
 Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Full Version
 
 
@@ -1904,7 +1904,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Full Version
-    Info: Processing started: Mon Jun 01 16:52:18 2020
+    Info: Processing started: Mon Jun 01 17:23:26 2020
 Info: Command: quartus_sta cpu -c cpu
 Info: qsta_default_script.tcl version: #1
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
@@ -1975,8 +1975,8 @@ Info (332146): Worst-case minimum pulse width slack is -3.000
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4631 megabytes
-    Info: Processing ended: Mon Jun 01 16:52:20 2020
+    Info: Peak virtual memory: 4623 megabytes
+    Info: Processing ended: Mon Jun 01 17:23:28 2020
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 
