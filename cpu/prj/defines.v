@@ -14,24 +14,25 @@
 `define ReadEnable		1'b1
 
 //32位零
-`define ZeroWord			32'h00000000;
+`define ZeroWord			32'h00000000
 
 // 指令有效
-`define InstVaild			1'b1;			
+`define InstVaild			1'b1	
 
 //********************	与通用寄存器Regfile有关的宏定义fine	*********************
 `define RegNumLog2		5
+`define NOPRegAddr		5'b00000
 
 //***************************	与具体指令有关的define	***************************
 `define EXE_ORI			6'b001101	//ori指令的操作码
 `define EXE_NOP			6'b000000	//空操作
 
 //AluOp（运算子类型）
-`define EXE_OR_OP			8'b00100101;
-`define EXE_NOP_OP		8'b00000000;
+`define EXE_OR_OP			8'b00100101
+`define EXE_NOP_OP		8'b00000000
 
 //AluSel（运算类型）
-`define EXE_RES_LOGIC	3'b001;
-`define EXE_RES_NOP		3'b000;
+`define EXE_RES_LOGIC	3'b001
+`define EXE_RES_NOP		3'b000
 
 

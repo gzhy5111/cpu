@@ -1,5 +1,5 @@
 Analysis & Synthesis report for cpu
-Sun May 17 00:05:29 2020
+Mon Jun 01 16:52:10 2020
 Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Full Version
 
 
@@ -42,7 +42,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun May 17 00:05:29 2020       ;
+; Analysis & Synthesis Status        ; Successful - Mon Jun 01 16:52:10 2020       ;
 ; Quartus II 64-Bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Full Version ;
 ; Revision Name                      ; cpu                                         ;
 ; Top-level Entity Name              ; pc_reg                                      ;
@@ -254,7 +254,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Full Version
-    Info: Processing started: Sun May 17 00:05:28 2020
+    Info: Processing started: Mon Jun 01 16:52:09 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off cpu -c cpu
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
 Info (12021): Found 1 design units, including 1 entities, in source file prj/regfile.v
@@ -266,6 +266,12 @@ Info (12021): Found 1 design units, including 1 entities, in source file prj/if_
 Info (12021): Found 1 design units, including 1 entities, in source file prj/id.v
     Info (12023): Found entity 1: id
 Info (12021): Found 0 design units, including 0 entities, in source file prj/defines.v
+Info (12021): Found 1 design units, including 1 entities, in source file prj/id_ex.v
+    Info (12023): Found entity 1: id_ex
+Info (12021): Found 1 design units, including 1 entities, in source file prj/ex.v
+    Info (12023): Found entity 1: ex
+Info (12021): Found 1 design units, including 1 entities, in source file prj/ex_mem.v
+    Info (12023): Found entity 1: ex_mem
 Info (12127): Elaborating entity "pc_reg" for the top level hierarchy
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "pc[0]" is stuck at GND
@@ -278,8 +284,8 @@ Info (21057): Implemented 66 device resources after synthesis - the final resour
     Info (21059): Implemented 33 output pins
     Info (21061): Implemented 31 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 3 warnings
-    Info: Peak virtual memory: 4608 megabytes
-    Info: Processing ended: Sun May 17 00:05:29 2020
+    Info: Peak virtual memory: 4609 megabytes
+    Info: Processing ended: Mon Jun 01 16:52:10 2020
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
