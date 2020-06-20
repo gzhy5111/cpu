@@ -1,0 +1,95 @@
+F:/github/cpu/codes/Chapter4/regfile.v {1 {vlog -work work -vopt -stats=none F:/github/cpu/codes/Chapter4/regfile.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} F:/github/cpu/codes/Chapter4/defines.v {1 {vlog -work work -vopt -stats=none F:/github/cpu/codes/Chapter4/defines.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+
+} {} {}} F:/github/cpu/codes/Chapter4/mem.v {1 {vlog -work work -vopt -stats=none F:/github/cpu/codes/Chapter4/mem.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mem
+
+Top level modules:
+	mem
+
+} {} {}} F:/github/cpu/codes/Chapter4/mem_wb.v {1 {vlog -work work -vopt -stats=none F:/github/cpu/codes/Chapter4/mem_wb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mem_wb
+
+Top level modules:
+	mem_wb
+
+} {} {}} F:/github/cpu/codes/Chapter4/pc_reg.v {1 {vlog -work work -vopt -stats=none F:/github/cpu/codes/Chapter4/pc_reg.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module pc_reg
+
+Top level modules:
+	pc_reg
+
+} {} {}} F:/github/cpu/codes/Chapter4/ex_mem.v {1 {vlog -work work -vopt -stats=none F:/github/cpu/codes/Chapter4/ex_mem.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ex_mem
+
+Top level modules:
+	ex_mem
+
+} {} {}} F:/github/cpu/codes/Chapter4/openmips.v {1 {vlog -work work -vopt -stats=none F:/github/cpu/codes/Chapter4/openmips.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module openmips
+
+Top level modules:
+	openmips
+
+} {} {}} F:/github/cpu/codes/Chapter4/ex.v {1 {vlog -work work -vopt -stats=none F:/github/cpu/codes/Chapter4/ex.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ex
+
+Top level modules:
+	ex
+
+} {} {}} F:/github/cpu/codes/Chapter4/id.v {1 {vlog -work work -vopt -stats=none F:/github/cpu/codes/Chapter4/id.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module id
+
+Top level modules:
+	id
+
+} {} {}} F:/github/cpu/codes/Chapter4/openmips_min_sopc_tb.v {1 {vlog -work work -vopt -stats=none F:/github/cpu/codes/Chapter4/openmips_min_sopc_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module openmips_min_sopc_tb
+
+Top level modules:
+	openmips_min_sopc_tb
+
+} {} {}} F:/github/cpu/codes/Chapter4/id_ex.v {1 {vlog -work work -vopt -stats=none F:/github/cpu/codes/Chapter4/id_ex.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module id_ex
+
+Top level modules:
+	id_ex
+
+} {} {}} F:/github/cpu/codes/Chapter4/openmips_min_sopc.v {1 {vlog -work work -vopt -stats=none F:/github/cpu/codes/Chapter4/openmips_min_sopc.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module openmips_min_sopc
+
+Top level modules:
+	openmips_min_sopc
+
+} {} {}} F:/github/cpu/codes/Chapter4/inst_rom.v {1 {vlog -work work -vopt -stats=none F:/github/cpu/codes/Chapter4/inst_rom.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module inst_rom
+
+Top level modules:
+	inst_rom
+
+} {} {}} F:/github/cpu/codes/Chapter4/if_id.v {1 {vlog -work work -vopt -stats=none F:/github/cpu/codes/Chapter4/if_id.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module if_id
+
+Top level modules:
+	if_id
+
+} {} {}}
