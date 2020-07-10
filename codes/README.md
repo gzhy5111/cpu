@@ -18,3 +18,5 @@ Chapter4：第 4 章 第一条指令ori的实现
 Chapter5：使用数据前推解决数据相关问题
 
 Chapter5_1：实现逻辑指令中的一条——and指令
+
+Chapter5_2：已实现全部8条逻辑指令：and、andi、or、ori、xor、xori、nor、lui
