@@ -7,273 +7,272 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dF:/github/cpu/codes/Chapter5_1
+dF:/github/cpu/codes/Chapter5_3
 T_opt
-!s110 1594358403
-VS3Dm?2KNjn>?=5za4i3eP1
+!s110 1595411835
+V8cFdX:3I7LSDk0QB@bJ>T0
 04 20 4 work openmips_min_sopc_tb fast 0
-=1-54bf641c22c6-5f07fa83-23f-9c0
+=1-54bf641c22c6-5f180d7b-1e-3d0c
 o-quiet -auto_acc_if_foreign -work work +acc
 n@_opt
 OL;O;10.4;61
-R0
 vex
-Z1 !s110 1594358493
+!s110 1595411823
 !i10b 1
-!s100 jZ8TSOj4CecC@=GcgYcOf3
-IEhXXI>Vb=z0HRiOKhSo4g3
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dF:/github/cpu/codes/Chapter5_2
-w1594352484
-8F:/github/cpu/codes/Chapter5_2/ex.v
-FF:/github/cpu/codes/Chapter5_2/ex.v
+!s100 Q;<3_Nn>jkX1NgIaXWjo60
+I54kgQ_QRB`4P[J^9_JACZ1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dF:/cpu/codes/Chapter5_2
+w1595411818
+8F:/cpu/codes/Chapter5_2/ex.v
+FF:/cpu/codes/Chapter5_2/ex.v
 L0 7
-Z4 OL;L;10.4;61
+Z2 OL;L;10.4;61
 r1
 !s85 0
 31
-!s108 1594358493.878000
-!s107 defines.v|F:/github/cpu/codes/Chapter5_2/ex.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/github/cpu/codes/Chapter5_2/ex.v|
+!s108 1595411823.767000
+!s107 defines.v|F:/cpu/codes/Chapter5_2/ex.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_2/ex.v|
 !i113 0
-Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 vex_mem
-R1
+Z4 !s110 1595411480
 !i10b 1
 !s100 o>F0zO4Kbc5SfFR@<NVLO3
-IbFLcdcMAOnUoL9ZUCAdKC2
-R2
-R3
-w1592563523
-8F:/github/cpu/codes/Chapter5_2/ex_mem.v
-FF:/github/cpu/codes/Chapter5_2/ex_mem.v
+IVTUW>diX03MPZjKi[39OB2
+R0
+R1
+Z5 w1595411271
+8F:/cpu/codes/Chapter5_2/ex_mem.v
+FF:/cpu/codes/Chapter5_2/ex_mem.v
 L0 6
-R4
+R2
 r1
 !s85 0
 31
-!s108 1594358493.949000
-!s107 defines.v|F:/github/cpu/codes/Chapter5_2/ex_mem.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/github/cpu/codes/Chapter5_2/ex_mem.v|
+!s108 1595411480.703000
+!s107 defines.v|F:/cpu/codes/Chapter5_2/ex_mem.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_2/ex_mem.v|
 !i113 0
-R5
+R3
 vid
-Z6 !s110 1594358494
+R4
 !i10b 1
 !s100 mFjM[cXG3gMIRnmX@LKCd3
-IKcE3LRc`=GTLceR5WPS:I1
-R2
-R3
-w1594358386
-8F:/github/cpu/codes/Chapter5_2/id.v
-FF:/github/cpu/codes/Chapter5_2/id.v
+IoM6VTGb2QfTn0DTL^VAaD1
+R0
+R1
+R5
+8F:/cpu/codes/Chapter5_2/id.v
+FF:/cpu/codes/Chapter5_2/id.v
 L0 7
-R4
+R2
 r1
 !s85 0
 31
-!s108 1594358494.032000
-!s107 defines.v|F:/github/cpu/codes/Chapter5_2/id.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/github/cpu/codes/Chapter5_2/id.v|
+!s108 1595411480.781000
+!s107 defines.v|F:/cpu/codes/Chapter5_2/id.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_2/id.v|
 !i113 0
-R5
+R3
 vid_ex
-R6
+R4
 !i10b 1
 !s100 3nDPL7FD9MzfbBI9a3Em42
-I5`d`SloQz@gfPGiNK>TEc1
-R2
-R3
-w1592563534
-8F:/github/cpu/codes/Chapter5_2/id_ex.v
-FF:/github/cpu/codes/Chapter5_2/id_ex.v
+I_8[h;djUMCHz];AhId3hF3
+R0
+R1
+R5
+8F:/cpu/codes/Chapter5_2/id_ex.v
+FF:/cpu/codes/Chapter5_2/id_ex.v
 L0 6
-R4
+R2
 r1
 !s85 0
 31
-!s108 1594358494.130000
-!s107 defines.v|F:/github/cpu/codes/Chapter5_2/id_ex.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/github/cpu/codes/Chapter5_2/id_ex.v|
+!s108 1595411480.863000
+!s107 defines.v|F:/cpu/codes/Chapter5_2/id_ex.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_2/id_ex.v|
 !i113 0
-R5
+R3
 vif_id
-R6
+R4
 !i10b 1
 !s100 ?o102KgiHC3n=i^8af1bj1
-I5FRSUO]LPELUKbhAeGi3[1
-R2
-R3
-w1592571390
-8F:/github/cpu/codes/Chapter5_2/if_id.v
-FF:/github/cpu/codes/Chapter5_2/if_id.v
+IR>mED3AcE31_iHHBn3mN73
+R0
+R1
+R5
+8F:/cpu/codes/Chapter5_2/if_id.v
+FF:/cpu/codes/Chapter5_2/if_id.v
 L0 7
-R4
+R2
 r1
 !s85 0
 31
-!s108 1594358494.227000
-!s107 defines.v|F:/github/cpu/codes/Chapter5_2/if_id.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/github/cpu/codes/Chapter5_2/if_id.v|
+!s108 1595411480.937000
+!s107 defines.v|F:/cpu/codes/Chapter5_2/if_id.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_2/if_id.v|
 !i113 0
-R5
+R3
 vinst_rom
-R6
+Z6 !s110 1595411481
 !i10b 1
 !s100 ;NkdTL>SZVDknA^:MJfWn0
-IGC0YI`hn@6JR^B6E`XM:03
-R2
-R3
-w1592622850
-8F:/github/cpu/codes/Chapter5_2/inst_rom.v
-FF:/github/cpu/codes/Chapter5_2/inst_rom.v
+I4?k3RcmDLB_=GDk@KQzI^3
+R0
+R1
+R5
+8F:/cpu/codes/Chapter5_2/inst_rom.v
+FF:/cpu/codes/Chapter5_2/inst_rom.v
 Z7 L0 13
-R4
+R2
 r1
 !s85 0
 31
-!s108 1594358494.314000
-!s107 defines.v|F:/github/cpu/codes/Chapter5_2/inst_rom.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/github/cpu/codes/Chapter5_2/inst_rom.v|
+!s108 1595411481.007000
+!s107 defines.v|F:/cpu/codes/Chapter5_2/inst_rom.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_2/inst_rom.v|
 !i113 0
-R5
+R3
 vmem
 R6
 !i10b 1
 !s100 VBf[F;?>44FG=5GS21Wlk3
-IY^HWJ[TLbYJ0gRm6ne]ZE0
-R2
-R3
-w1592563547
-8F:/github/cpu/codes/Chapter5_2/mem.v
-FF:/github/cpu/codes/Chapter5_2/mem.v
+IPd8iB:i;0z9MXKQc4YK6a2
+R0
+R1
+R5
+8F:/cpu/codes/Chapter5_2/mem.v
+FF:/cpu/codes/Chapter5_2/mem.v
 L0 6
-R4
+R2
 r1
 !s85 0
 31
-!s108 1594358494.397000
-!s107 defines.v|F:/github/cpu/codes/Chapter5_2/mem.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/github/cpu/codes/Chapter5_2/mem.v|
+!s108 1595411481.081000
+!s107 defines.v|F:/cpu/codes/Chapter5_2/mem.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_2/mem.v|
 !i113 0
-R5
+R3
 vmem_wb
 R6
 !i10b 1
 !s100 7Fm`85_oc]>ID4jCL>::D2
-IVGTUT9^hhAk4HR3S5VQQe0
-R2
-R3
-w1592563550
-8F:/github/cpu/codes/Chapter5_2/mem_wb.v
-FF:/github/cpu/codes/Chapter5_2/mem_wb.v
+I^hPcHUI[0@]V^8EQlSj`M1
+R0
+R1
+R5
+8F:/cpu/codes/Chapter5_2/mem_wb.v
+FF:/cpu/codes/Chapter5_2/mem_wb.v
 L0 6
-R4
+R2
 r1
 !s85 0
 31
-!s108 1594358494.468000
-!s107 defines.v|F:/github/cpu/codes/Chapter5_2/mem_wb.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/github/cpu/codes/Chapter5_2/mem_wb.v|
+!s108 1595411481.173000
+!s107 defines.v|F:/cpu/codes/Chapter5_2/mem_wb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_2/mem_wb.v|
 !i113 0
-R5
+R3
 vopenmips
 R6
 !i10b 1
 !s100 Oz`5f3Z@maRoLB^gXzg]_3
-ITUQoDTn<_HJ34H0^P`NHE0
-R2
-R3
-w1594265878
-8F:/github/cpu/codes/Chapter5_2/openmips.v
-FF:/github/cpu/codes/Chapter5_2/openmips.v
+IBH76m9I3ijd^O[>NCG[KW2
+R0
+R1
+R5
+8F:/cpu/codes/Chapter5_2/openmips.v
+FF:/cpu/codes/Chapter5_2/openmips.v
 L0 17
-R4
+R2
 r1
 !s85 0
 31
-!s108 1594358494.554000
-!s107 defines.v|F:/github/cpu/codes/Chapter5_2/openmips.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/github/cpu/codes/Chapter5_2/openmips.v|
+!s108 1595411481.246000
+!s107 defines.v|F:/cpu/codes/Chapter5_2/openmips.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_2/openmips.v|
 !i113 0
-R5
+R3
 vopenmips_min_sopc
 R6
 !i10b 1
 !s100 bbml6eHQIHi54YUJERH183
-IeZk@@OR]TTb<=A0jL3I`A2
-R2
-R3
-w1592584487
-8F:/github/cpu/codes/Chapter5_2/openmips_min_sopc.v
-FF:/github/cpu/codes/Chapter5_2/openmips_min_sopc.v
+IF<=MIjiEMbA>eE<Jnj<[21
+R0
+R1
+R5
+8F:/cpu/codes/Chapter5_2/openmips_min_sopc.v
+FF:/cpu/codes/Chapter5_2/openmips_min_sopc.v
 R7
-R4
+R2
 r1
 !s85 0
 31
-!s108 1594358494.623000
-!s107 defines.v|F:/github/cpu/codes/Chapter5_2/openmips_min_sopc.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/github/cpu/codes/Chapter5_2/openmips_min_sopc.v|
+!s108 1595411481.328000
+!s107 defines.v|F:/cpu/codes/Chapter5_2/openmips_min_sopc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_2/openmips_min_sopc.v|
 !i113 0
-R5
+R3
 vopenmips_min_sopc_tb
 R6
 !i10b 1
 !s100 _<A875cfcT3MjI:ece:]d0
-IQezEzK9l_j?mKk2`;blAZ0
-R2
-R3
-w1592616867
-8F:/github/cpu/codes/Chapter5_2/openmips_min_sopc_tb.v
-FF:/github/cpu/codes/Chapter5_2/openmips_min_sopc_tb.v
+IiNbd@OS60ChFh3?dnlgBZ2
+R0
+R1
+R5
+8F:/cpu/codes/Chapter5_2/openmips_min_sopc_tb.v
+FF:/cpu/codes/Chapter5_2/openmips_min_sopc_tb.v
 L0 4
-R4
+R2
 r1
 !s85 0
 31
-!s108 1594358494.707000
-!s107 defines.v|F:/github/cpu/codes/Chapter5_2/openmips_min_sopc_tb.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/github/cpu/codes/Chapter5_2/openmips_min_sopc_tb.v|
+!s108 1595411481.400000
+!s107 defines.v|F:/cpu/codes/Chapter5_2/openmips_min_sopc_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_2/openmips_min_sopc_tb.v|
 !i113 0
-R5
+R3
 vpc_reg
 R6
 !i10b 1
 !s100 l=ooZ55P^a9gEP3DHYLCm0
-IO<[Q`LkN;Fj;EJ05LQ0ZL2
-R2
-R3
-w1589639942
-8F:/github/cpu/codes/Chapter5_2/pc_reg.v
-FF:/github/cpu/codes/Chapter5_2/pc_reg.v
+IFl>Hk;AWLKh=M?EmUUOb52
+R0
+R1
+R5
+8F:/cpu/codes/Chapter5_2/pc_reg.v
+FF:/cpu/codes/Chapter5_2/pc_reg.v
 L0 7
-R4
+R2
 r1
 !s85 0
 31
-!s108 1594358494.777000
-!s107 defines.v|F:/github/cpu/codes/Chapter5_2/pc_reg.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/github/cpu/codes/Chapter5_2/pc_reg.v|
+!s108 1595411481.486000
+!s107 defines.v|F:/cpu/codes/Chapter5_2/pc_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_2/pc_reg.v|
 !i113 0
-R5
+R3
 vregfile
 R6
 !i10b 1
 !s100 56h=_XM5g1am^g^zQT5;21
-I9_VPo^^o1Z]U3?D76WMaL3
-R2
-R3
-w1594258965
-8F:/github/cpu/codes/Chapter5_2/regfile.v
-FF:/github/cpu/codes/Chapter5_2/regfile.v
+IaOnR6;oEaaaWo>MCMoR@<1
+R0
+R1
+R5
+8F:/cpu/codes/Chapter5_2/regfile.v
+FF:/cpu/codes/Chapter5_2/regfile.v
 L0 7
-R4
+R2
 r1
 !s85 0
 31
-!s108 1594358494.862000
-!s107 defines.v|F:/github/cpu/codes/Chapter5_2/regfile.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/github/cpu/codes/Chapter5_2/regfile.v|
+!s108 1595411481.556000
+!s107 defines.v|F:/cpu/codes/Chapter5_2/regfile.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_2/regfile.v|
 !i113 0
-R5
+R3

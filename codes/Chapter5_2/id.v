@@ -186,7 +186,7 @@ always @(*) begin
 			end
 			`EXE_LUI: begin
 				alusel_o <= `EXE_RES_LOGIC;
-				aluop_o <= `EXE_OR_OP;		
+				aluop_o <= `EXE_OR_OP;				// 这里比较特殊，我们让lui指令以逻辑或的方式运算	
 				wreg_o <= 1'b1;
 				reg1_read_o <= 1'b1;
 				reg2_read_o <= 1'b0;

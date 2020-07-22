@@ -34,9 +34,6 @@ always @ (*) begin
 	end else begin
 		// 根据子类型运算
 		case (aluop_i)
-			`EXE_ORI_OP: begin
-				logicout <= reg1_i | reg2_i;
-			end
 			`EXE_AND_OP: begin
 				logicout <= reg1_i & reg2_i;
 			end
@@ -48,12 +45,6 @@ always @ (*) begin
 			end
 			`EXE_NOR_OP: begin
 				logicout <= ~(reg1_i | reg2_i);
-			end
-			`EXE_ANDI_OP: begin
-				logicout <= reg1_i & reg2_i;
-			end
-			`EXE_XORI_OP: begin
-				logicout <= reg1_i ^ reg2_i;
 			end
 			default: begin
 				logicout <= `ZeroWord;
