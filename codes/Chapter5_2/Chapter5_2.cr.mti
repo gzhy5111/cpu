@@ -71,18 +71,18 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	pc_reg
 
-} {} {}} F:/cpu/codes/Chapter5_2/ex_mem.v {1 {vlog -work work -vopt -stats=none F:/cpu/codes/Chapter5_2/ex_mem.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module ex_mem
-
-Top level modules:
-	ex_mem
-
 } {} {}} F:/cpu/codes/Chapter5_2/openmips.v {1 {vlog -work work -vopt -stats=none F:/cpu/codes/Chapter5_2/openmips.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module openmips
 
 Top level modules:
 	openmips
+
+} {} {}} F:/cpu/codes/Chapter5_2/ex_mem.v {1 {vlog -work work -vopt -stats=none F:/cpu/codes/Chapter5_2/ex_mem.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ex_mem
+
+Top level modules:
+	ex_mem
 
 } {} {}}

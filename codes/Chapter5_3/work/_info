@@ -1,0 +1,274 @@
+m255
+K3
+z0
+13
+cModel Technology
+dF:\cpu\codes\Chapter5_3
+T_opt
+!s110 1595519136
+V9@3=O0I9nQ6OiXmce^DW>2
+04 20 4 work openmips_min_sopc_tb fast 0
+=1-54bf641c22c6-5f19b0a0-67-2b38
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.4;61
+vex
+Z0 !s110 1595519129
+!i10b 1
+!s100 `0WQHXmRzeScMAZGPmIP11
+IoEHzMZ`oNm2ngL@:iRSeO3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dF:/cpu/codes/Chapter5_3
+w1595473329
+8F:/cpu/codes/Chapter5_3/ex.v
+FF:/cpu/codes/Chapter5_3/ex.v
+L0 7
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1595519129.110000
+!s107 defines.v|F:/cpu/codes/Chapter5_3/ex.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_3/ex.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vex_mem
+R0
+!i10b 1
+!s100 o>F0zO4Kbc5SfFR@<NVLO3
+IEZ>]X6GmUV40ii`5iTmfJ3
+R1
+R2
+Z5 w1595411271
+8F:/cpu/codes/Chapter5_3/ex_mem.v
+FF:/cpu/codes/Chapter5_3/ex_mem.v
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1595519129.282000
+!s107 defines.v|F:/cpu/codes/Chapter5_3/ex_mem.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_3/ex_mem.v|
+!i113 0
+R4
+vid
+R0
+!i10b 1
+!s100 M^fkgZn`[0YQdUi`0SN9T2
+IYR<L6F@M_^ZBmeTl011:h3
+R1
+R2
+w1595504380
+8F:/cpu/codes/Chapter5_3/id.v
+FF:/cpu/codes/Chapter5_3/id.v
+L0 7
+R3
+r1
+!s85 0
+31
+!s108 1595519129.363000
+!s107 defines.v|F:/cpu/codes/Chapter5_3/id.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_3/id.v|
+!i113 0
+R4
+vid_ex
+R0
+!i10b 1
+!s100 3nDPL7FD9MzfbBI9a3Em42
+I5MgF?_mzVQO8z?0:jQmWl1
+R1
+R2
+w1595428629
+8F:/cpu/codes/Chapter5_3/id_ex.v
+FF:/cpu/codes/Chapter5_3/id_ex.v
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1595519129.459000
+!s107 defines.v|F:/cpu/codes/Chapter5_3/id_ex.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_3/id_ex.v|
+!i113 0
+R4
+vif_id
+R0
+!i10b 1
+!s100 ?o102KgiHC3n=i^8af1bj1
+IY?>0[2DzXz[KA:e@dih[X1
+R1
+R2
+R5
+8F:/cpu/codes/Chapter5_3/if_id.v
+FF:/cpu/codes/Chapter5_3/if_id.v
+L0 7
+R3
+r1
+!s85 0
+31
+!s108 1595519129.536000
+!s107 defines.v|F:/cpu/codes/Chapter5_3/if_id.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_3/if_id.v|
+!i113 0
+R4
+vinst_rom
+R0
+!i10b 1
+!s100 ;NkdTL>SZVDknA^:MJfWn0
+Id0PQ<PKd`1RWNcIUNml>31
+R1
+R2
+R5
+8F:/cpu/codes/Chapter5_3/inst_rom.v
+FF:/cpu/codes/Chapter5_3/inst_rom.v
+Z6 L0 13
+R3
+r1
+!s85 0
+31
+!s108 1595519129.624000
+!s107 defines.v|F:/cpu/codes/Chapter5_3/inst_rom.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_3/inst_rom.v|
+!i113 0
+R4
+vmem
+R0
+!i10b 1
+!s100 VBf[F;?>44FG=5GS21Wlk3
+IS?@IzcbeI4@W]0ZBlKNMa0
+R1
+R2
+R5
+8F:/cpu/codes/Chapter5_3/mem.v
+FF:/cpu/codes/Chapter5_3/mem.v
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1595519129.705000
+!s107 defines.v|F:/cpu/codes/Chapter5_3/mem.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_3/mem.v|
+!i113 0
+R4
+vmem_wb
+R0
+!i10b 1
+!s100 7Fm`85_oc]>ID4jCL>::D2
+I]AJD]ZeYNnKWe?ZkOoc@i1
+R1
+R2
+R5
+8F:/cpu/codes/Chapter5_3/mem_wb.v
+FF:/cpu/codes/Chapter5_3/mem_wb.v
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1595519129.790000
+!s107 defines.v|F:/cpu/codes/Chapter5_3/mem_wb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_3/mem_wb.v|
+!i113 0
+R4
+vopenmips
+R0
+!i10b 1
+!s100 CJAmR_=W:f^5gcEOUS1mN2
+I67QS@Ke2eBNlOngRCTYS>2
+R1
+R2
+w1595518257
+8F:/cpu/codes/Chapter5_3/openmips.v
+FF:/cpu/codes/Chapter5_3/openmips.v
+L0 17
+R3
+r1
+!s85 0
+31
+!s108 1595519129.871000
+!s107 defines.v|F:/cpu/codes/Chapter5_3/openmips.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_3/openmips.v|
+!i113 0
+R4
+vopenmips_min_sopc
+R0
+!i10b 1
+!s100 bbml6eHQIHi54YUJERH183
+IMVaY[FeM72PJ42VR=<UcG3
+R1
+R2
+R5
+8F:/cpu/codes/Chapter5_3/openmips_min_sopc.v
+FF:/cpu/codes/Chapter5_3/openmips_min_sopc.v
+R6
+R3
+r1
+!s85 0
+31
+!s108 1595519129.955000
+!s107 defines.v|F:/cpu/codes/Chapter5_3/openmips_min_sopc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_3/openmips_min_sopc.v|
+!i113 0
+R4
+vopenmips_min_sopc_tb
+Z7 !s110 1595519130
+!i10b 1
+!s100 _<A875cfcT3MjI:ece:]d0
+IGnk1<8^Fo_5m]eKRj5aHd2
+R1
+R2
+R5
+8F:/cpu/codes/Chapter5_3/openmips_min_sopc_tb.v
+FF:/cpu/codes/Chapter5_3/openmips_min_sopc_tb.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1595519130.057000
+!s107 defines.v|F:/cpu/codes/Chapter5_3/openmips_min_sopc_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_3/openmips_min_sopc_tb.v|
+!i113 0
+R4
+vpc_reg
+R7
+!i10b 1
+!s100 l=ooZ55P^a9gEP3DHYLCm0
+IT77I`biUe`^EP7]Rff3GV1
+R1
+R2
+R5
+8F:/cpu/codes/Chapter5_3/pc_reg.v
+FF:/cpu/codes/Chapter5_3/pc_reg.v
+L0 7
+R3
+r1
+!s85 0
+31
+!s108 1595519130.134000
+!s107 defines.v|F:/cpu/codes/Chapter5_3/pc_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_3/pc_reg.v|
+!i113 0
+R4
+vregfile
+R7
+!i10b 1
+!s100 D0J?oelmVEjP]X71fiHSH0
+Iin<[aiPIaY8mgaBideZ>Y1
+R1
+R2
+w1595518065
+8F:/cpu/codes/Chapter5_3/regfile.v
+FF:/cpu/codes/Chapter5_3/regfile.v
+L0 7
+R3
+r1
+!s85 0
+31
+!s108 1595519130.240000
+!s107 defines.v|F:/cpu/codes/Chapter5_3/regfile.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter5_3/regfile.v|
+!i113 0
+R4

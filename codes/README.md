@@ -20,3 +20,5 @@ Chapter5：使用数据前推解决数据相关问题
 Chapter5_1：实现逻辑指令中的一条——and指令
 
 Chapter5_2：已实现全部8条逻辑指令：and、andi、or、ori、xor、xori、nor、lui
+
+Chapter5_3：修改连接文件的错误，部分线没连接对导致无法正确读取寄存器数据。并已完成6个移位操作指令和2个空指令（sync和pref）。
