@@ -1,0 +1,307 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/modeltech64_10.4/examples
+T_opt
+!s110 1600687768
+VEOSVjnBe]:3LA;18EI8h81
+04 17 4 work openmips_min_sopc fast 0
+=1-54bf641c22c6-5f688e97-246-398c
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+Z2 OL;O;10.4;61
+R0
+T_opt1
+!s110 1600835971
+VAVRG3GVmC`[OAI^[@F^Cc2
+04 20 4 work openmips_min_sopc_tb fast 0
+=1-54bf641c22c6-5f6ad182-3c9-4d18
+R1
+n@_opt1
+R2
+vex
+Z3 !s110 1600835963
+!i10b 1
+!s100 gSGcbW9zYi0^hA4z4:;Wd2
+I;SPn4R9V^`T`W0dXAT@dc2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dF:/cpu/codes/Chapter6
+w1600834343
+8F:/cpu/codes/Chapter6/ex.v
+FF:/cpu/codes/Chapter6/ex.v
+L0 7
+Z6 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1600835963.478000
+!s107 defines.v|F:/cpu/codes/Chapter6/ex.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter6/ex.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vex_mem
+R3
+!i10b 1
+!s100 2YOj]<ePFL4a_diLja52`1
+Ik`WFg]7kDlz`<j8_PKAd:1
+R4
+R5
+w1600834385
+8F:/cpu/codes/Chapter6/ex_mem.v
+FF:/cpu/codes/Chapter6/ex_mem.v
+L0 6
+R6
+r1
+!s85 0
+31
+!s108 1600835963.542000
+!s107 defines.v|F:/cpu/codes/Chapter6/ex_mem.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter6/ex_mem.v|
+!i113 0
+R7
+vhilo_reg
+R3
+!i10b 1
+!s100 >=]NM4a^hkINhzKD=ha2X1
+IDejNkgQ3>4m?T^NF:mNWT3
+R4
+R5
+w1600835928
+8F:/cpu/codes/Chapter6/hilo_reg.v
+FF:/cpu/codes/Chapter6/hilo_reg.v
+L0 10
+R6
+r1
+!s85 0
+31
+!s108 1600835963.600000
+!s107 defines.v|F:/cpu/codes/Chapter6/hilo_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter6/hilo_reg.v|
+!i113 0
+R7
+vid
+R3
+!i10b 1
+!s100 SAdQXg@R]@4<niWZiRfBN2
+IdI^6GPcE]?642d?dSB6]f3
+R4
+R5
+w1600781222
+8F:/cpu/codes/Chapter6/id.v
+FF:/cpu/codes/Chapter6/id.v
+L0 7
+R6
+r1
+!s85 0
+31
+!s108 1600835963.663000
+!s107 defines.v|F:/cpu/codes/Chapter6/id.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter6/id.v|
+!i113 0
+R7
+vid_ex
+R3
+!i10b 1
+!s100 3nDPL7FD9MzfbBI9a3Em42
+IWb76SW3Gd^K8gPAbm8CYK2
+R4
+R5
+Z8 w1595519717
+8F:/cpu/codes/Chapter6/id_ex.v
+FF:/cpu/codes/Chapter6/id_ex.v
+L0 6
+R6
+r1
+!s85 0
+31
+!s108 1600835963.734000
+!s107 defines.v|F:/cpu/codes/Chapter6/id_ex.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter6/id_ex.v|
+!i113 0
+R7
+vif_id
+R3
+!i10b 1
+!s100 ?o102KgiHC3n=i^8af1bj1
+IfLM7=KFhF1j4aQH3HYeOe0
+R4
+R5
+R8
+8F:/cpu/codes/Chapter6/if_id.v
+FF:/cpu/codes/Chapter6/if_id.v
+L0 7
+R6
+r1
+!s85 0
+31
+!s108 1600835963.860000
+!s107 defines.v|F:/cpu/codes/Chapter6/if_id.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter6/if_id.v|
+!i113 0
+R7
+vinst_rom
+Z9 !s110 1600835964
+!i10b 1
+!s100 ;NkdTL>SZVDknA^:MJfWn0
+I8?]2ehPP@`:JOKS_LQE]V2
+R4
+R5
+R8
+8F:/cpu/codes/Chapter6/inst_rom.v
+FF:/cpu/codes/Chapter6/inst_rom.v
+L0 13
+R6
+r1
+!s85 0
+31
+!s108 1600835964.020000
+!s107 defines.v|F:/cpu/codes/Chapter6/inst_rom.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter6/inst_rom.v|
+!i113 0
+R7
+vmem
+R9
+!i10b 1
+!s100 M^ceS^2C?13;P2aXVW[oo3
+ICQIGfl=l]d9[AhK;32dj:0
+R4
+R5
+w1600834175
+8F:/cpu/codes/Chapter6/mem.v
+FF:/cpu/codes/Chapter6/mem.v
+L0 6
+R6
+r1
+!s85 0
+31
+!s108 1600835964.170000
+!s107 defines.v|F:/cpu/codes/Chapter6/mem.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter6/mem.v|
+!i113 0
+R7
+vmem_wb
+R9
+!i10b 1
+!s100 4Rm]L0j>P1I?Ioia0jUiV1
+I_iR77>NcdUTGQPZeiE<813
+R4
+R5
+w1600834200
+8F:/cpu/codes/Chapter6/mem_wb.v
+FF:/cpu/codes/Chapter6/mem_wb.v
+L0 6
+R6
+r1
+!s85 0
+31
+!s108 1600835964.330000
+!s107 defines.v|F:/cpu/codes/Chapter6/mem_wb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter6/mem_wb.v|
+!i113 0
+R7
+vopenmips
+R9
+!i10b 1
+!s100 QV:GbCX6z;Naz6?1^mGcj3
+ILzDMfb=PYP[L1]m0UzWEb2
+R4
+R5
+w1600834409
+8F:/cpu/codes/Chapter6/openmips.v
+FF:/cpu/codes/Chapter6/openmips.v
+L0 17
+R6
+r1
+!s85 0
+31
+!s108 1600835964.501000
+!s107 defines.v|F:/cpu/codes/Chapter6/openmips.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter6/openmips.v|
+!i113 0
+R7
+vopenmips_min_sopc
+R9
+!i10b 1
+!s100 [[C1b<d2L4Smki5NGTj?_2
+I8=jC_LW<<]Cm[RWkH>c892
+R4
+R5
+w1600786047
+8F:/cpu/codes/Chapter6/openmips_min_sopc.v
+FF:/cpu/codes/Chapter6/openmips_min_sopc.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1600835964.566000
+!s107 defines.v|F:/cpu/codes/Chapter6/openmips_min_sopc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter6/openmips_min_sopc.v|
+!i113 0
+R7
+vopenmips_min_sopc_tb
+R9
+!i10b 1
+!s100 _<A875cfcT3MjI:ece:]d0
+IAn=<1DONCWn`5UnT[L9g^3
+R4
+R5
+R8
+8F:/cpu/codes/Chapter6/openmips_min_sopc_tb.v
+FF:/cpu/codes/Chapter6/openmips_min_sopc_tb.v
+L0 4
+R6
+r1
+!s85 0
+31
+!s108 1600835964.666000
+!s107 defines.v|F:/cpu/codes/Chapter6/openmips_min_sopc_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter6/openmips_min_sopc_tb.v|
+!i113 0
+R7
+vpc_reg
+R9
+!i10b 1
+!s100 l=ooZ55P^a9gEP3DHYLCm0
+I9?ZAfPJ>ATLFGmMj9m4fU0
+R4
+R5
+R8
+8F:/cpu/codes/Chapter6/pc_reg.v
+FF:/cpu/codes/Chapter6/pc_reg.v
+L0 7
+R6
+r1
+!s85 0
+31
+!s108 1600835964.727000
+!s107 defines.v|F:/cpu/codes/Chapter6/pc_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter6/pc_reg.v|
+!i113 0
+R7
+vregfile
+R9
+!i10b 1
+!s100 D0J?oelmVEjP]X71fiHSH0
+ICh0@zndR4laVha`M68W[B1
+R4
+R5
+R8
+8F:/cpu/codes/Chapter6/regfile.v
+FF:/cpu/codes/Chapter6/regfile.v
+L0 7
+R6
+r1
+!s85 0
+31
+!s108 1600835964.787000
+!s107 defines.v|F:/cpu/codes/Chapter6/regfile.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/cpu/codes/Chapter6/regfile.v|
+!i113 0
+R7
