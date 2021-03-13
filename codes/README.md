@@ -11,6 +11,12 @@
 3. 现在会出现一个sim视窗
 4. 在窗口中的任意位置鼠标右击 -- add wave，file - load，选择.do文件即可加载对应波形
 
+文件说明：
+
+AsmTest/inst_rom.S：mips汇编代码
+
+AsmTest/inst_rom.data：经过汇编编译器编译后的二进制代码
+
 ## 项目框架
 
 Chapter4：第 4 章 第一条指令ori的实现
