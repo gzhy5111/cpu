@@ -244,6 +244,38 @@ always @(*) begin
 								reg2_read_o <= 1'b0;
 								instVaild <= `InstVaild;
 							end
+                            `EXE_ADD: begin
+                                aluop_o <= `EXE_ADD_OP;
+                                alusel_o <= `EXE_RES_ARITHMETIC;
+                                wreg_o <= 1'b1;
+                                reg1_read_o <= 1'b1;
+                                reg2_read_o <= 1'b1;
+                                instVaild <= `InstVaild;
+                            end
+                            `EXE_ADDU: begin
+                                alusel_o <= `EXE_RES_ARITHMETIC;
+                                aluop_o <= `EXE_ADDU_OP;
+                                wreg_o <= 1'b1;
+                                reg1_read_o <= 1'b1;
+                                reg2_read_o <= 1'b1;
+                                instVaild <= `InstVaild;
+                            end
+                            `EXE_SUB: begin
+                                alusel_o <= `EXE_RES_ARITHMETIC;
+                                aluop_o <= `EXE_SUB_OP;
+                                wreg_o <= 1'b1;
+                                reg1_read_o <= 1'b1;
+                                reg2_read_o <= 1'b1;
+                                instVaild <= `InstVaild;
+                            end
+                            `EXE_SUBU: begin
+                                alusel_o <= `EXE_RES_ARITHMETIC;
+                                aluop_o <= `EXE_SUBU_OP;
+                                wreg_o <= 1'b1;
+                                reg1_read_o <= 1'b1;
+                                reg2_read_o <= 1'b1;
+                                instVaild <= `InstVaild;
+                            end
 						endcase
 					end
 				endcase
@@ -299,6 +331,17 @@ always @(*) begin
 				reg2_read_o <= 1'b0;
 				instVaild <= `InstVaild;
 			end
+            // 算术操作指令
+            `EXE_ADDI: begin
+                alusel_o <= `EXE_RES_ARITHMETIC;
+                aluop_o <= `EXE_ADDI_OP;
+                wreg_o <= 1'b1;
+                reg1_read_o <= 1'b1;
+                reg2_read_o <= 1'b0;
+                imm <= {{16{inst_i[15]}}, inst_i[15:0]};    // 有符号扩展
+				wd_o <= inst_i[20:16];
+                instVaild <= `InstVaild;
+            end
 		endcase
 		
 		// 逻辑指令 逻辑左移、逻辑右移、算数右移（移动位数是指定的，为6~10位）

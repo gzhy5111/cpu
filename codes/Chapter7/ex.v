@@ -39,10 +39,15 @@ module ex(
 	
 );
 
+// 算术运算中用到的变量 
+reg overflow;
+reg[31:0] temp_counts;
+
 // 暂存运算结果
 reg[31:0] logicout;
 reg[31:0] shiftres;
 reg[31:0] moveres;
+reg[31:0] counts;
 
 // 暂存特殊寄存器HI和LO的值
 reg[31:0] hi;
@@ -122,7 +127,7 @@ end
 /* 移动操作 */
 always @ (*) begin
 	if (rst == `RstEnable) begin
-		shiftres <= `ZeroWord;
+		moveres <= `ZeroWord;
 	end else begin
 		case (aluop_i)
 			`EXE_MOVN_OP: begin
@@ -140,6 +145,54 @@ always @ (*) begin
 			end
 		endcase
 	end
+end
+
+/* 算术操作 */
+always @ (*) begin
+    if (rst == `RstEnable) begin
+        counts <= `ZeroWord;
+    end else begin
+        case (aluop_i)
+            // add addi addu 指令都是直接相加。不同的是，带ｕ的不进行溢出检查直接保存；不带ｕ的如果产生溢出则不保存结果。
+            `EXE_ADD_OP: begin
+                temp_counts <= reg1_i + reg2_i;
+                // 下面进行溢出检测，如果溢出，则写回寄存器使能无效。
+                if ((reg1_i[31] == 0 && reg2_i[31] == 0 && temp_counts[31] == 1) || (reg1_i[31] == 1 && reg2_i[31] == 1 && temp_counts[31] == 0)) begin
+                    overflow = 1;
+                    wreg_o <= 1'b0;
+                end else begin
+                    overflow = 0;
+                    counts <= temp_counts;
+                end
+            end
+            `EXE_ADDI_OP: begin
+                temp_counts <= reg1_i + reg2_i;
+                if ((reg1_i[31] == 0 && reg2_i[31] == 0 && temp_counts[31] == 1) || (reg1_i[31] == 1 && reg2_i[31] == 1 && temp_counts[31] == 0)) begin
+                    overflow = 1;
+                    wreg_o <= 1'b0;
+                end else begin
+                    overflow = 0;
+                    counts <= temp_counts;
+                end
+            end
+            `EXE_ADDU_OP: begin
+                counts <= reg1_i + reg2_i;
+            end
+            `EXE_SUB_OP: begin
+                temp_counts <= reg1_i - reg2_i;
+                if ((reg1_i[31] == 0 && reg2_i[31] == 0 && temp_counts[31] == 1) || (reg1_i[31] == 1 && reg2_i[31] == 1 && temp_counts[31] == 0)) begin
+                    overflow = 1;
+                    wreg_o <= 1'b0;
+                end else begin
+                    overflow = 0;
+                    counts <= temp_counts;
+                end
+            end
+            `EXE_SUBU_OP: begin
+                counts <= reg1_i - reg2_i;
+            end
+        endcase
+    end
 end
 
 /*************************************************************************
@@ -160,6 +213,9 @@ always @ (*) begin
 		`EXE_RES_MOVE: begin
 			wdata_o <= moveres;
 		end
+        `EXE_RES_ARITHMETIC: begin
+            wdata_o <= counts;
+        end
 		default: begin
 			wdata_o <= `ZeroWord;
 		end

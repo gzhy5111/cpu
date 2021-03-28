@@ -30,3 +30,5 @@ Chapter5_2：已实现全部8条逻辑指令：and、andi、or、ori、xor、xor
 Chapter5_3：修改连接文件的错误，部分线没连接对导致无法正确读取寄存器数据。并已完成6个移位操作指令和2个空指令（sync和pref）。
 
 Chapter6：实现 movn、movz、mfhi、mflo、mthi、mtlo六个移动操作指令。
+
+Chapter7：实现 add、addi、addiu、addu、sub、subu 指令。AsmCode文件下内是实现的时候一步步测试的汇编代码和机器码。inst_rom_1.data 是第七章第一段测试的机器码。

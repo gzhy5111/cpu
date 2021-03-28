@@ -34,6 +34,9 @@
 // 下面这个是I型指令的载入类指令的操作符
 `define EXE_LUI			6'b001111		// lui
 `define EXE_PREF		6'b110011
+// 下面是I指令的算数操作指令的操作符
+`define EXE_ADDI        6'b001000
+
 
 // 功能码（op3）：R型指令的操作符附加段
 `define EXE_AND			6'b100100		// and指令
@@ -57,6 +60,12 @@
 `define EXE_MFLO		6'b010010
 `define EXE_MTHI		6'b010001
 `define EXE_MTLO		6'b010011
+// 算数操作指令
+`define EXE_ADD         6'b100000
+`define EXE_ADDU        6'b100001
+`define EXE_SUB         6'b100010
+`define EXE_SUBU        6'b100011
+
 
 //AluOp（运算子类型）
 `define EXE_NOP_OP		8'b00000000		// 供sync指令、pref指令使用
@@ -77,6 +86,12 @@
 `define EXE_MFLO_OP		8'b00010010
 `define EXE_MTHI_OP		8'b00010001
 `define EXE_MTLO_OP		8'b00010011
+// 算数操作指令
+`define EXE_ADD_OP      8'b10000000
+`define EXE_ADDI_OP     8'b10000001
+`define EXE_ADDU_OP     8'b10000010
+`define EXE_SUB_OP      8'b10000011
+`define EXE_SUBU_OP     8'b10000100
 
 
 //AluSel（运算类型）
@@ -86,6 +101,7 @@
 // 以下运算类型码是我从光盘代码中抄写的，因为我暂时不清楚运算类型的编码规则，我感觉这是纯粹自己设定的，只要能区分开就行。
 `define EXE_RES_SHIFT 	3'b010			// 移位运算
 `define EXE_RES_MOVE	3'b011			// 移动操作指令
+`define EXE_RES_ARITHMETIC  3'b100      // 算数操作指令
 		
 
 //********************	与通用寄存器Regfile有关的宏定义fine	*********************

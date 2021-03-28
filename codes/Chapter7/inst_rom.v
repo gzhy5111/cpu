@@ -21,7 +21,7 @@
 	// 定义一个宽度为InstBus（32位），大小为InstMemNum（238KB）的数组
 	reg [`InstBus] inst_mem[0:`InstMemNum-1];
 	// 读文件 写到inst_mem数组中
-	initial $readmemh("inst_rom.data", inst_mem);
+	initial $readmemh("inst_rom_1.data", inst_mem);
 	
 	always @ (*) begin
 		// //如果指令存储器是禁用的，则输出是空的数据
