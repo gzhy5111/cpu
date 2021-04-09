@@ -342,6 +342,16 @@ always @(*) begin
 				wd_o <= inst_i[20:16];
                 instVaild <= `InstVaild;
             end
+            `EXE_ADDIU: begin
+                alusel_o <= `EXE_RES_ARITHMETIC;
+                aluop_o <= `EXE_ADDIU_OP;
+                wreg_o <= 1'b1;
+                reg1_read_o <= 1'b1;
+                reg2_read_o <= 1'b0;
+                imm <= {{16{inst_i[15]}}, inst_i[15:0]};
+                wd_o <= inst_i[20:16];
+                instVaild <= `InstVaild;
+            end
 		endcase
 		
 		// 逻辑指令 逻辑左移、逻辑右移、算数右移（移动位数是指定的，为6~10位）

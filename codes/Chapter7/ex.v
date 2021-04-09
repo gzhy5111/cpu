@@ -175,6 +175,9 @@ always @ (*) begin
                     counts <= temp_counts;
                 end
             end
+            `EXE_ADDIU_OP: begin
+                counts <= reg1_i + reg2_i;
+            end
             `EXE_ADDU_OP: begin
                 counts <= reg1_i + reg2_i;
             end

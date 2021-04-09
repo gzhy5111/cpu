@@ -36,6 +36,7 @@
 `define EXE_PREF		6'b110011
 // 下面是I指令的算数操作指令的操作符
 `define EXE_ADDI        6'b001000
+`define EXE_ADDIU       6'b001001
 
 
 // 功能码（op3）：R型指令的操作符附加段
@@ -92,6 +93,7 @@
 `define EXE_ADDU_OP     8'b10000010
 `define EXE_SUB_OP      8'b10000011
 `define EXE_SUBU_OP     8'b10000100
+`define EXE_ADDIU_OP    8'b10000101
 
 
 //AluSel（运算类型）

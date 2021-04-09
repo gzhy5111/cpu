@@ -26,3 +26,5 @@
 2021.3.13	Chapter6增加用于测试的代码文件夹——AsmTest目录，内含有mips代码，可以经过汇编编译器编译后形成二进制机器码。
 
 2021.3.28	Chapter7 实现了add addi addiu addu sub subu指令。
+
+2021.4.9	漏掉了 addiu 指令，修改后将其实现，测试通过。
