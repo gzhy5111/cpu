@@ -1,12 +1,12 @@
-C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/regfile.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/regfile.v
+C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/defines.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/defines.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+
+} {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/regfile.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/regfile.v
 Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
 -- Compiling module regfile
 
 Top level modules:
 	regfile
-
-} {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/defines.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/defines.v
-Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
 
 } {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/openmips_min_sopc_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/openmips_min_sopc_tb.v
 Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
@@ -64,6 +64,13 @@ Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
 Top level modules:
 	openmips_min_sopc
 
+} {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/openmips.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/openmips.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module openmips
+
+Top level modules:
+	openmips
+
 } {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/ex_mem.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/ex_mem.v
 Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
 -- Compiling module ex_mem
@@ -77,13 +84,6 @@ Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
 
 Top level modules:
 	if_id
-
-} {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/openmips.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/openmips.v
-Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
--- Compiling module openmips
-
-Top level modules:
-	openmips
 
 } {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/ex.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/ex.v
 Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016

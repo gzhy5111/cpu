@@ -37,6 +37,8 @@
 // 下面是I指令的算数操作指令的操作符
 `define EXE_ADDI        6'b001000
 `define EXE_ADDIU       6'b001001
+`define EXE_SLTI        6'b001010
+`define EXE_SLTIU       6'b001011
 
 
 // 功能码（op3）：R型指令的操作符附加段
@@ -66,6 +68,8 @@
 `define EXE_ADDU        6'b100001
 `define EXE_SUB         6'b100010
 `define EXE_SUBU        6'b100011
+`define EXE_SLT         6'b101010
+`define EXE_SLTU        6'b101011
 
 
 //AluOp（运算子类型）
@@ -94,6 +98,10 @@
 `define EXE_SUB_OP      8'b10000011
 `define EXE_SUBU_OP     8'b10000100
 `define EXE_ADDIU_OP    8'b10000101
+`define EXE_SLT_OP      8'b10000110
+`define EXE_SLTU_OP     8'b10000111
+`define EXE_SLTI_OP     8'b10001000  
+`define EXE_SLTIU_OP    8'b10001001
 
 
 //AluSel（运算类型）

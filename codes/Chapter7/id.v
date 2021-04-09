@@ -276,6 +276,22 @@ always @(*) begin
                                 reg2_read_o <= 1'b1;
                                 instVaild <= `InstVaild;
                             end
+                            `EXE_SLT: begin
+                                alusel_o <= `EXE_RES_ARITHMETIC;
+                                aluop_o <= `EXE_SLT_OP;
+                                wreg_o <= 1'b1;
+                                reg1_read_o <= 1'b1;
+                                reg2_read_o <= 1'b1;
+                                instVaild <= `InstVaild;
+                            end
+                            `EXE_SLTU: begin
+                                alusel_o <= `EXE_RES_ARITHMETIC;
+                                aluop_o <= `EXE_SLTU_OP;
+                                wreg_o <= 1'b1;
+                                reg1_read_o <= 1'b1;
+                                reg2_read_o <= 1'b1;
+                                instVaild <= `InstVaild;
+                            end
 						endcase
 					end
 				endcase
@@ -345,6 +361,26 @@ always @(*) begin
             `EXE_ADDIU: begin
                 alusel_o <= `EXE_RES_ARITHMETIC;
                 aluop_o <= `EXE_ADDIU_OP;
+                wreg_o <= 1'b1;
+                reg1_read_o <= 1'b1;
+                reg2_read_o <= 1'b0;
+                imm <= {{16{inst_i[15]}}, inst_i[15:0]};
+                wd_o <= inst_i[20:16];
+                instVaild <= `InstVaild;
+            end
+            `EXE_SLTI: begin
+                alusel_o <= `EXE_RES_ARITHMETIC;
+                aluop_o <= `EXE_SLTI_OP;
+                wreg_o <= 1'b1;
+                reg1_read_o <= 1'b1;
+                reg2_read_o <= 1'b0;
+                imm <= {{16{inst_i[15]}}, inst_i[15:0]};
+                wd_o <= inst_i[20:16];
+                instVaild <= `InstVaild;
+            end
+            `EXE_SLTIU: begin
+                alusel_o <= `EXE_RES_ARITHMETIC;
+                aluop_o <= `EXE_SLTIU_OP;
                 wreg_o <= 1'b1;
                 reg1_read_o <= 1'b1;
                 reg2_read_o <= 1'b0;

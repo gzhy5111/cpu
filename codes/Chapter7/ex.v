@@ -194,6 +194,81 @@ always @ (*) begin
             `EXE_SUBU_OP: begin
                 counts <= reg1_i - reg2_i;
             end
+            `EXE_SLT_OP: begin
+                // 下面进行有符号比较，既然有符号，就有正负。分下面四种情况：
+                // 1. rs正数，rt正数
+                if (reg1_i[31] == 0 && reg2_i[31] == 0) begin
+                    // reg1减去reg2，大于0则counts为0；小于0，则counts为1
+                    if ((reg1_i - reg2_i) < 0) begin
+                        counts <= 1;
+                    end else begin
+                        counts <= 0;
+                    end 
+                end
+                // 2. rs正数，rt负数（rs > rt）
+                if (reg1_i[31] == 0 && reg2_i[31] == 1) begin
+                    counts <= 0;
+                end
+                // 3. rs负数，rt正数（rs < rt）
+                if (reg1_i[31] == 1 && reg2_i[31] == 0) begin
+                    counts <= 1;
+                end
+                // 4. rs负数，rt负数
+                if (reg1_i[31] == 1 && reg2_i[31] == 1) begin
+                    // reg1减去reg2，大于0则counts为0；小于0，则counts为1
+                    if ((reg1_i - reg2_i) < 0) begin
+                        counts <= 1;
+                    end else begin
+                        counts <= 0;
+                    end 
+                end
+            end
+            `EXE_SLTU_OP: begin
+                // 无符号比较，直接比较即可。
+                if ((reg1_i - reg2_i) < 0) begin
+                    counts <= 1;
+                end else begin
+                    counts <= 0;
+                end
+            end
+            `EXE_SLTI_OP: begin
+                // 下面进行有符号比较，既然有符号，就有正负。分下面四种情况：
+                // 1. rs正数，rt正数（）
+                if (reg1_i[31] == 0 && reg2_i[31] == 0) begin
+                    // reg1减去reg2，大于0则counts为1；小于0，则counts为0
+                    if ((reg1_i - reg2_i) > 0) begin
+                        counts <= 1;
+                    end
+                    if ((reg1_i - reg2_i) < 0) begin
+                        counts <= 0;
+                    end 
+                end
+                // 2. rs正数，rt负数（rs > rt）
+                if (reg1_i[31] == 0 && reg2_i[31] == 1) begin
+                    counts <= 1;
+                end
+                // 3. rs负数，rt正数（rs < rt）
+                if (reg1_i[31] == 1 && reg2_i[31] == 0) begin
+                    counts <= 0;
+                end
+                // 4. rs负数，rt负数
+                if (reg1_i[31] == 1 && reg2_i[31] == 1) begin
+                    // reg1减去reg2，大于0则counts为0；小于0，则counts为1
+                    if ((reg1_i - reg2_i) > 0) begin
+                        counts <= 1;
+                    end else begin
+                        counts <= 0;
+                    end 
+                end
+            end
+            `EXE_SLTIU_OP: begin
+                // 无符号比较，直接比较即可。
+                if ((reg1_i - reg2_i) > 0) begin
+                    counts <= 1;
+                end else begin
+                    counts <= 0;
+                end
+            end
         endcase
     end
 end

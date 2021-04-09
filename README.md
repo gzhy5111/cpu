@@ -28,3 +28,5 @@
 2021.3.28	Chapter7 实现了add addi addiu addu sub subu指令。
 
 2021.4.9	漏掉了 addiu 指令，修改后将其实现，测试通过。
+
+2021.4.9	实现Chapter7-简单算术指令之第二段。slt\sltu\slti\sltiu指令。
