@@ -296,6 +296,33 @@ always @(*) begin
 					end
 				endcase
 			end
+            
+            // 算术运算指令：clo clz指令
+            6'b011100: begin
+                case (op2)
+                    5'b00000: begin
+                        case (op3)
+                            `EXE_CLZ: begin
+                                alusel_o <= `EXE_RES_ARITHMETIC;
+                                aluop_o <= `EXE_CLZ_OP;
+                                wreg_o <= 1'b1;
+                                reg1_read_o <= 1'b1;
+                                reg2_read_o <= 1'b1;
+                                instVaild <= `InstVaild;
+                            end
+                            `EXE_CLO: begin
+                                alusel_o <= `EXE_RES_ARITHMETIC;
+                                aluop_o <= `EXE_CLO_OP;
+                                wreg_o <= 1'b1;
+                                reg1_read_o <= 1'b1;
+                                reg2_read_o <= 1'b1;
+                                instVaild <= `InstVaild;
+                            end
+                        endcase
+                    end
+                endcase
+            end
+            
 			// I型指令，这里的指令只匹配op
 			`EXE_ORI: begin							// ori指令				
 				wreg_o <= 1'b1;						// 首先肯定是要写回的，修改下使能				

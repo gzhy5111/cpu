@@ -7,307 +7,317 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dC:/work_soft/FPGA_Soft/ModelSim_SE_10_5/examples
+Z0 dC:/work_soft/FPGA_Soft/ModelSim_SE_10_5/examples
 T_opt
-!s110 1617946842
-V:jXLIB@LVKk^1JS2H<lOX3
-04 20 4 work openmips_min_sopc_tb fast 0
-=1-000c29a368a0-606fe8d9-3ae-814
-o-quiet -auto_acc_if_foreign -work work +acc
-Z0 tCvgOpt 0
+!s110 1618151980
+VDEkLbI^NcBHW54ZCDN;Fi2
+Z1 04 20 4 work openmips_min_sopc_tb fast 0
+=1-000c29a368a0-60730a2c-a1-904
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
 n@_opt
-OL;O;10.5;63
+Z4 OL;O;10.5;63
+R0
+T_opt1
+!s110 1618221267
+V=Bk0Dli:MXN4MWOUg`G1:0
+R1
+=1-000c29a368a0-607418d3-11-918
+R2
+R3
+n@_opt1
+R4
 vex
-!s110 1617946831
+!s110 1618221258
 !i10b 1
-!s100 dMb8nD22e=3^Sf1RfkU<f0
-IhePNP`]CbO6X8EhWaoBc50
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7
-w1617946812
-8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/ex.v
-FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/ex.v
+!s100 =zGPO__5KfndQi>lRRU?o2
+IJbQOeRi;hJI?LccdX_8cC1
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7
+w1618221253
+8C:\Users\zhiyuan\Desktop\cpu\codes\Chapter7\ex.v
+FC:\Users\zhiyuan\Desktop\cpu\codes\Chapter7\ex.v
 L0 7
-Z3 OL;L;10.5;63
+Z7 OL;L;10.5;63
 r1
 !s85 0
 31
-!s108 1617946831.000000
-!s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/ex.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/ex.v|
+!s108 1618221258.000000
+!s107 defines.v|C:\Users\zhiyuan\Desktop\cpu\codes\Chapter7\ex.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\Users\zhiyuan\Desktop\cpu\codes\Chapter7\ex.v|
 !i113 0
-Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
 vex_mem
-Z5 !s110 1617940646
+Z9 !s110 1618220851
 !i10b 1
 !s100 2YOj]<ePFL4a_diLja52`1
 IR[:`LTlUNaONGQ@SIg7fD0
-R1
-R2
-Z6 w1617885892
+R5
+R6
+Z10 w1617885892
 8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/ex_mem.v
 FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/ex_mem.v
 L0 6
-R3
+R7
 r1
 !s85 0
 31
-Z7 !s108 1617940646.000000
+Z11 !s108 1618220851.000000
 !s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/ex_mem.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/ex_mem.v|
 !i113 0
-R4
-R0
+R8
+R3
 vhilo_reg
-R5
+R9
 !i10b 1
 !s100 >=]NM4a^hkINhzKD=ha2X1
 II]1Y32oAJz3Giz^Z;kURG2
-R1
-R2
+R5
 R6
+R10
 8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/hilo_reg.v
 FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/hilo_reg.v
 L0 10
-R3
+R7
 r1
 !s85 0
 31
-R7
+R11
 !s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/hilo_reg.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/hilo_reg.v|
 !i113 0
-R4
-R0
+R8
+R3
 vid
-R5
+R9
 !i10b 1
-!s100 :fanN6kIb0OX^5bZ2m_fE1
-IXRkm:MD:_aT[=J2NW^AzY0
-R1
-R2
-w1617939008
+!s100 CQl6f;K:=lkNXHE_NiRm=0
+IDG=B;K_gSFSl]3BkQ:b<?2
+R5
+R6
+w1617978335
 8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/id.v
 FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/id.v
 L0 7
-R3
+R7
 r1
 !s85 0
 31
-R7
+R11
 !s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/id.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/id.v|
 !i113 0
-R4
-R0
+R8
+R3
 vid_ex
-R5
+R9
 !i10b 1
 !s100 3nDPL7FD9MzfbBI9a3Em42
 IM_Hd[n^KgYfeVIe^YSz@G2
-R1
-R2
+R5
 R6
+R10
 8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/id_ex.v
 FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/id_ex.v
 L0 6
-R3
+R7
 r1
 !s85 0
 31
-R7
+R11
 !s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/id_ex.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/id_ex.v|
 !i113 0
-R4
-R0
+R8
+R3
 vif_id
-R5
+R9
 !i10b 1
 !s100 ?o102KgiHC3n=i^8af1bj1
 IEe5<]Kz1481B@jZ33:8ON1
-R1
-R2
+R5
 R6
+R10
 8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/if_id.v
 FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/if_id.v
 L0 7
-R3
+R7
 r1
 !s85 0
 31
-R7
+R11
 !s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/if_id.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/if_id.v|
 !i113 0
-R4
-R0
+R8
+R3
 vinst_rom
-R5
+R9
 !i10b 1
-!s100 Qf@6SJ7NKU3CVz<o3P<XU1
-Ie9JYdCkfBBP3Q:YBiY<;a2
-R1
-R2
-w1617939986
+!s100 kSkWLk;0X6GobGkMH<7dK0
+I;c_>>doi6bTh78c[@jo?L0
+R5
+R6
+w1618065157
 8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/inst_rom.v
 FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/inst_rom.v
 L0 13
-R3
+R7
 r1
 !s85 0
 31
-R7
+R11
 !s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/inst_rom.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/inst_rom.v|
 !i113 0
-R4
-R0
+R8
+R3
 vmem
-R5
+Z12 !s110 1618220852
 !i10b 1
 !s100 M^ceS^2C?13;P2aXVW[oo3
 IjUGeUONI:@RUniY^;0Ijz0
-R1
-R2
+R5
 R6
+R10
 8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/mem.v
 FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/mem.v
 L0 6
-R3
+R7
 r1
 !s85 0
 31
-R7
+R11
 !s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/mem.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/mem.v|
 !i113 0
-R4
-R0
+R8
+R3
 vmem_wb
-R5
+R12
 !i10b 1
 !s100 4Rm]L0j>P1I?Ioia0jUiV1
 I`ieiGoLoi@`U`oMoH4VMb0
-R1
-R2
+R5
 R6
+R10
 8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/mem_wb.v
 FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/mem_wb.v
 L0 6
-R3
+R7
 r1
 !s85 0
 31
-R7
+Z13 !s108 1618220852.000000
 !s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/mem_wb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/mem_wb.v|
 !i113 0
-R4
-R0
+R8
+R3
 vopenmips
-R5
+R12
 !i10b 1
 !s100 QV:GbCX6z;Naz6?1^mGcj3
 In=DM8H1g]RK`>2_f=FZ<@1
-R1
-R2
+R5
 R6
+R10
 8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/openmips.v
 FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/openmips.v
 L0 17
-R3
+R7
 r1
 !s85 0
 31
-R7
+R13
 !s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/openmips.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/openmips.v|
 !i113 0
-R4
-R0
+R8
+R3
 vopenmips_min_sopc
-R5
+R12
 !i10b 1
 !s100 [[C1b<d2L4Smki5NGTj?_2
 I`hYUc70eedK>UA>4=Lm?U3
-R1
-R2
+R5
 R6
+R10
 8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/openmips_min_sopc.v
 FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/openmips_min_sopc.v
 L0 2
-R3
+R7
 r1
 !s85 0
 31
-R7
+R13
 !s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/openmips_min_sopc.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/openmips_min_sopc.v|
 !i113 0
-R4
-R0
+R8
+R3
 vopenmips_min_sopc_tb
-R5
+R12
 !i10b 1
 !s100 _<A875cfcT3MjI:ece:]d0
 Ie>=cafHSJ[8h]O=e3`9fc0
-R1
-R2
+R5
 R6
+R10
 8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/openmips_min_sopc_tb.v
 FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/openmips_min_sopc_tb.v
 L0 4
-R3
+R7
 r1
 !s85 0
 31
-R7
+R13
 !s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/openmips_min_sopc_tb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/openmips_min_sopc_tb.v|
 !i113 0
-R4
-R0
+R8
+R3
 vpc_reg
-R5
+R12
 !i10b 1
 !s100 l=ooZ55P^a9gEP3DHYLCm0
 I>A[SXkT90VV78P_=S?Vhn3
-R1
-R2
+R5
 R6
+R10
 8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/pc_reg.v
 FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/pc_reg.v
 L0 7
-R3
+R7
 r1
 !s85 0
 31
-R7
+R13
 !s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/pc_reg.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/pc_reg.v|
 !i113 0
-R4
-R0
+R8
+R3
 vregfile
-!s110 1617940647
+R12
 !i10b 1
 !s100 D0J?oelmVEjP]X71fiHSH0
 I1Be>zmQQG[akW7h<H3iMM0
-R1
-R2
+R5
 R6
+R10
 8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/regfile.v
 FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/regfile.v
 L0 7
-R3
+R7
 r1
 !s85 0
 31
-R7
+R13
 !s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/regfile.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/regfile.v|
 !i113 0
-R4
-R0
+R8
+R3

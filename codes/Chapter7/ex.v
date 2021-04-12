@@ -269,6 +269,180 @@ always @ (*) begin
                     counts <= 0;
                 end
             end
+            `EXE_CLZ_OP: begin
+                counts <= 0;
+                if (reg1_i == 32'h00000000)
+                    counts <= 32;
+                // 统计1之前0的个数，所以以1作为“决断”。
+                else if (reg1_i[31] == 1)
+                    counts <= 0;       
+                else if (reg1_i[30] == 1)
+                    counts <= 1;       
+                else if (reg1_i[29] == 1)
+                    counts <= 2;       
+                else if (reg1_i[28] == 1)
+                    counts <= 3;       
+                else if (reg1_i[27] == 1)
+                    counts <= 4;       
+                else if (reg1_i[26] == 1)
+                    counts <= 5;       
+                else if (reg1_i[25] == 1)
+                    counts <= 6;       
+                else if (reg1_i[24] == 1)
+                    counts <= 7;       
+                else if (reg1_i[23] == 1)
+                    counts <= 8;       
+                else if (reg1_i[22] == 1)
+                    counts <= 9;      
+                else if (reg1_i[21] == 1)
+                    counts <= 10;      
+                else if (reg1_i[20] == 1)
+                    counts <= 11;      
+                else if (reg1_i[19] == 1)
+                    counts <= 12;      
+                else if (reg1_i[18] == 1)
+                    counts <= 13;      
+                else if (reg1_i[17] == 1)
+                    counts <= 14;      
+                else if (reg1_i[16] == 1)
+                    counts <= 15;      
+                else if (reg1_i[15] == 1)
+                    counts <= 16;      
+                else if (reg1_i[14] == 1)
+                    counts <= 17;      
+                else if (reg1_i[13] == 1)
+                    counts <= 18;      
+                else if (reg1_i[12] == 1)
+                    counts <= 19;      
+                else if (reg1_i[11] == 1)
+                    counts <= 20;      
+                else if (reg1_i[10] == 1)
+                    counts <= 21;
+                else if (reg1_i[9] == 1) 
+                    counts <= 22;     
+                else if (reg1_i[8] == 1) 
+                    counts <= 23;     
+                else if (reg1_i[7] == 1) 
+                    counts <= 24;     
+                else if (reg1_i[6] == 1) 
+                    counts <= 25;     
+                else if (reg1_i[5] == 1) 
+                    counts <= 26;     
+                else if (reg1_i[4] == 1) 
+                    counts <= 27;     
+                else if (reg1_i[3] == 1) 
+                    counts <= 28;     
+                else if (reg1_i[2] == 1) 
+                    counts <= 29;     
+                else if (reg1_i[1] == 1) 
+                    counts <= 30;
+                else
+                    counts <= 31;
+
+            end
+            `EXE_CLO_OP: begin
+                counts <= 0;
+                if (reg1_i == 32'hffffffff)
+                    counts <= 32;
+                else
+                
+                // 统计0之前1的个数，所以以0作为“决断”。
+                if (reg1_i[31] == 0)
+                    counts <= 0;  
+                else              
+                if (reg1_i[30] == 0)
+                    counts <= 1;  
+                else              
+                if (reg1_i[29] == 0)
+                    counts <= 2;  
+                else              
+                if (reg1_i[28] == 0)
+                    counts <= 3;  
+                else              
+                if (reg1_i[27] == 0)
+                    counts <= 4;  
+                else              
+                if (reg1_i[26] == 0)
+                    counts <= 5;  
+                else              
+                if (reg1_i[25] == 0)
+                    counts <= 6;  
+                else              
+                if (reg1_i[24] == 0)
+                    counts <= 7;  
+                else              
+                if (reg1_i[23] == 0)
+                    counts <= 8;  
+                else              
+                if (reg1_i[22] == 0)
+                    counts <= 9;  
+                else              
+                if (reg1_i[21] == 0)
+                    counts <= 10; 
+                else              
+                if (reg1_i[20] == 0)
+                    counts <= 11; 
+                else              
+                if (reg1_i[19] == 0)
+                    counts <= 12; 
+                else              
+                if (reg1_i[18] == 0)
+                    counts <= 13; 
+                else              
+                if (reg1_i[17] == 0)
+                    counts <= 14; 
+                else              
+                if (reg1_i[16] == 0)
+                    counts <= 15; 
+                else              
+                if (reg1_i[15] == 0)
+                    counts <= 16; 
+                else              
+                if (reg1_i[14] == 0)
+                    counts <= 17; 
+                else              
+                if (reg1_i[13] == 0)
+                    counts <= 18; 
+                else              
+                if (reg1_i[12] == 0)
+                    counts <= 19; 
+                else              
+                if (reg1_i[11] == 0)
+                    counts <= 20; 
+                else              
+                if (reg1_i[10] == 0)
+                    counts <= 21;
+                else              
+                if (reg1_i[9] == 0)
+                    counts <= 22;
+                else             
+                if (reg1_i[8] == 0)
+                    counts <= 23;
+                else             
+                if (reg1_i[7] == 0)
+                    counts <= 24;
+                else             
+                if (reg1_i[6] == 0)
+                    counts <= 25;
+                else             
+                if (reg1_i[5] == 0)
+                    counts <= 26;
+                else             
+                if (reg1_i[4] == 0)
+                    counts <= 27;
+                else             
+                if (reg1_i[3] == 0)
+                    counts <= 28;
+                else             
+                if (reg1_i[2] == 0)
+                    counts <= 29;
+                else             
+                if (reg1_i[1] == 0)
+                    counts <= 30;
+                else
+                    counts <= 31;
+
+            end
         endcase
     end
 end
