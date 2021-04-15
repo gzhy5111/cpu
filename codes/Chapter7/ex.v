@@ -42,6 +42,9 @@ module ex(
 // 算术运算中用到的变量 
 reg overflow;
 reg[31:0] temp_counts;
+reg[63:0] mult_temp_counts;
+reg[31:0] mult_32_result;
+reg[63:0] multu_temp_counts;
 
 // 暂存运算结果
 reg[31:0] logicout;
@@ -441,7 +444,42 @@ always @ (*) begin
                     counts <= 30;
                 else
                     counts <= 31;
-
+            
+            end
+            `EXE_MUL_OP: begin
+                // 乘法相乘须考虑以下情况:
+                // 1. 正数 x 正数
+                // 程序中的正数，负数，经过编译器处理（都转换为补码）后存储在寄存器中。所以在CPU中，所有的数值都看作补码。
+                // 因为寄存器中本身就是补码，我们直接采用补码乘法即可。
+                // 2. 正数 x 负数
+                // 3. 负数 x 正数
+                // 4. 负数 x 负数
+                counts <= reg1_i * reg2_i;
+            end
+            `EXE_MULT_OP: begin
+                // 与上面的乘法一样，不同点是结果保存在特殊寄存器 hi lo 中。
+                
+                // mult_temp_counts <= reg1_i * reg2_i;    // mult_temp_counts 是一个64位寄存器。
+                // 上面这一行计算结果是错误的，因为 reg1_i * reg2_i 结果可能是超过32位的，本应该截断却被保留进 64位的 mult_temp_counts 中了。
+                
+                // 有符号数和无符号数补码乘法计算算法：
+                // 针对32位有符号数计算，需要先将32位以上截断，然后根据第32位做有符号扩展。
+                // 针对无符号数，直接计算，超过32位不用截断处理。直接存储在64位变量中，高32位放在hi。低32位放在lo。
+                // 所以应该截断到32位：
+                mult_32_result <= reg1_i * reg2_i;
+                mult_temp_counts <= {{32{mult_32_result[31]}}, mult_32_result[31:0]};
+                // 需要写到特殊寄存器 hi lo中。
+                whilo_o <= 1'b1;					
+                hi_o <= mult_temp_counts[63:32];				
+                lo_o <= mult_temp_counts[31:0];               
+            end
+            `EXE_MULTU_OP: begin
+                multu_temp_counts <= reg1_i * reg2_i;
+                $display("multu_temp_counts: %b", multu_temp_counts);
+                whilo_o <= 1'b1;					
+                hi_o <= multu_temp_counts[63:32];
+                $display("hi_o: %b",hi_o);				
+                lo_o <= multu_temp_counts[31:0];
             end
         endcase
     end
@@ -479,6 +517,7 @@ end
 **	如果是MTHI MTLO指令，他们是将 通用寄存器的值 -赋给-> 特殊寄存器的指令	********************
 **	这两个指令的主要功能就是获取从普通寄存器取值，然后赋给ex阶段输出变量 whilo_o、hi_o和 lo_o **
 ************************************************************************************************/
+// 凡是要写入到特殊寄存器的都需要下面的操作
 
 always @ (*) begin
 	if (rst == `RstEnable) begin

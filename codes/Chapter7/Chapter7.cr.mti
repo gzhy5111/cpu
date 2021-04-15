@@ -85,7 +85,7 @@ Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
 Top level modules:
 	if_id
 
-} {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/ex.v {1 {vlog -work work -vopt -stats=none {C:\Users\zhiyuan\Desktop\cpu\codes\Chapter7\ex.v}
+} {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/ex.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7/ex.v
 Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
 -- Compiling module ex
 

@@ -32,3 +32,5 @@
 2021.4.9	实现Chapter7-简单算术指令之第二段。slt\sltu\slti\sltiu指令。
 
 2021.4.12	实现 算术操作指令之 clo\clz 指令。
+
+2021.4.15	实现 mul、mult、multu 指令。

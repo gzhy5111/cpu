@@ -72,6 +72,9 @@
 `define EXE_SLTU        6'b101011
 `define EXE_CLZ         6'b100000
 `define EXE_CLO         6'b100001
+`define EXE_MUL         6'b000010
+`define EXE_MULT        6'b011000
+`define EXE_MULTU       6'b011001
 
 
 //AluOp（运算子类型）
@@ -106,6 +109,9 @@
 `define EXE_SLTIU_OP    8'b10001001
 `define EXE_CLZ_OP      8'b10001010
 `define EXE_CLO_OP      8'b10001011
+`define EXE_MUL_OP      8'b10001100
+`define EXE_MULT_OP     8'b10001101
+`define EXE_MULTU_OP    8'b10001110
 
 
 //AluSel（运算类型）

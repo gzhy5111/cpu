@@ -292,6 +292,23 @@ always @(*) begin
                                 reg2_read_o <= 1'b1;
                                 instVaild <= `InstVaild;
                             end
+                            `EXE_MULT:begin
+                                alusel_o <= `EXE_RES_ARITHMETIC;
+                                aluop_o <= `EXE_MULT_OP;
+                                wreg_o <= 1'b0;
+                                reg1_read_o <= 1'b1;
+                                reg2_read_o <= 1'b1;
+                                instVaild <= `InstVaild;
+                            end
+                            `EXE_MULTU: begin
+                                alusel_o <= `EXE_RES_ARITHMETIC;
+                                aluop_o <= `EXE_MULTU_OP;
+                                wreg_o <= 1'b0;             // 不写入到通用寄存器，所以使能设置为0。需要保存到特殊寄存器 hi lo 中。
+                                reg1_read_o <= 1'b1;
+                                reg2_read_o <= 1'b1;
+                                instVaild <= `InstVaild;
+                                
+                            end
 						endcase
 					end
 				endcase
@@ -318,10 +335,18 @@ always @(*) begin
                                 reg2_read_o <= 1'b1;
                                 instVaild <= `InstVaild;
                             end
+                            `EXE_MUL:begin
+                                alusel_o <= `EXE_RES_ARITHMETIC;
+                                aluop_o <= `EXE_MUL_OP;
+                                wreg_o <= 1'b1;
+                                reg1_read_o <= 1'b1;
+                                reg2_read_o <= 1'b1;
+                                instVaild <= `InstVaild;
+                            end
                         endcase
                     end
                 endcase
-            end
+            end 
             
 			// I型指令，这里的指令只匹配op
 			`EXE_ORI: begin							// ori指令				
