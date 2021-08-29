@@ -41,3 +41,4 @@ Chapter7：实现 add、addi、addiu、addu、sub、subu 指令。AsmCode文件�
 
 Chapter7_1：7.5 流水线暂停机制实现
 
+Chapter7_2：前面流水线暂停机制代码有误，已经修正，可参考：https://gaozhiyuan.me/computer/cpu/mips-cpu-madd-msub-instructions.html；已实现累乘加 madd、maddu，累乘减 msub、msubu 指令。

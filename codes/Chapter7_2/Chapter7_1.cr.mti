@@ -1,0 +1,109 @@
+C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/mem_wb.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/mem_wb.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module mem_wb
+
+Top level modules:
+	mem_wb
+
+} {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/pc_reg.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/pc_reg.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module pc_reg
+
+Top level modules:
+	pc_reg
+
+} {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/id_ex.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/id_ex.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module id_ex
+
+Top level modules:
+	id_ex
+
+} {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/openmips_min_sopc.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/openmips_min_sopc.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module openmips_min_sopc
+
+Top level modules:
+	openmips_min_sopc
+
+} {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/if_id.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/if_id.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module if_id
+
+Top level modules:
+	if_id
+
+} {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/ex_mem.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/ex_mem.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module ex_mem
+
+Top level modules:
+	ex_mem
+
+} {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/openmips.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/openmips.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module openmips
+
+Top level modules:
+	openmips
+
+} {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/ex.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/ex.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module ex
+
+Top level modules:
+	ex
+
+} {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/id.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/id.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module id
+
+Top level modules:
+	id
+
+} {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/regfile.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/regfile.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/defines.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/defines.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+
+} {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/mem.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/mem.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module mem
+
+Top level modules:
+	mem
+
+} {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/openmips_min_sopc_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/openmips_min_sopc_tb.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module openmips_min_sopc_tb
+
+Top level modules:
+	openmips_min_sopc_tb
+
+} {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/hilo_reg.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/hilo_reg.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module hilo_reg
+
+Top level modules:
+	hilo_reg
+
+} {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/inst_rom.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/inst_rom.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module inst_rom
+
+Top level modules:
+	inst_rom
+
+} {} {}} C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/ctrl.v {1 {vlog -work work -vopt -stats=none C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_1/ctrl.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}}
