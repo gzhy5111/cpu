@@ -1,0 +1,387 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/zhiyuan/Desktop/Chapter7_2
+T_opt
+!s110 1630748242
+V]J]4>iU0`l6fU3Jf3:J^d3
+Z1 04 20 4 work openmips_min_sopc_tb fast 0
+=1-000c29a368a0-61333e51-2fe-414
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.5;63
+R0
+T_opt1
+!s110 1630811749
+Vk9SY^d_n<Uo6MbYK6XSZO2
+R1
+=1-000c29a368a0-61343665-263-bf8
+R2
+R3
+n@_opt1
+R4
+R0
+vctrl
+Z5 !s110 1630913436
+!i10b 1
+!s100 `Y>;HQADmHV>]EhdA1iC^3
+I5<`aY<gniV`_f@iJ;fK^_0
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 dC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3
+Z8 w1630487175
+8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/ctrl.v
+FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/ctrl.v
+L0 1
+Z9 OL;L;10.5;63
+r1
+!s85 0
+31
+!s108 1630913435.000000
+!s107 C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/ctrl.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vdiv
+R5
+!i10b 1
+!s100 WTH=93]SaUf_>0XMXTQ551
+I@k]z67<^>8_4iDz9V<Vl53
+R6
+R7
+w1630679701
+8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/div.v
+FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/div.v
+L0 1
+R9
+r1
+!s85 0
+31
+Z11 !s108 1630913436.000000
+!s107 C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/div.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/div.v|
+!i113 0
+R10
+R3
+vdiv_fsm
+Z12 !s110 1630913437
+!i10b 1
+!s100 M@@2_B]1@TP>`T6m<W5G91
+I:b6G8]1YXINhNCOGMkh>F1
+R6
+R7
+w1630759879
+8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/div_fsm.v
+FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/div_fsm.v
+L0 1
+R9
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/div_fsm.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/div_fsm.v|
+!i113 0
+R10
+R3
+vex
+R12
+!i10b 1
+!s100 W030f>ONHC?Ph;NA`n6TL2
+I;M0Ch9K17hITSV`jZBJGX3
+R6
+R7
+w1630767525
+8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/ex.v
+FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/ex.v
+L0 7
+R9
+r1
+!s85 0
+31
+Z13 !s108 1630913437.000000
+!s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/ex.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/ex.v|
+!i113 0
+R10
+R3
+vex_mem
+R12
+!i10b 1
+!s100 iBggUhCUf228oc;Y>2jJY2
+I<7S7VQKH;WN52mO<8LnF:3
+R6
+R7
+w1630723998
+8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/ex_mem.v
+FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/ex_mem.v
+L0 6
+R9
+r1
+!s85 0
+31
+R13
+!s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/ex_mem.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/ex_mem.v|
+!i113 0
+R10
+R3
+vhilo_reg
+R12
+!i10b 1
+!s100 >=]NM4a^hkINhzKD=ha2X1
+I?^Tz7A3@?zeUzc5[^`V6>2
+R6
+R7
+R8
+8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/hilo_reg.v
+FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/hilo_reg.v
+L0 10
+R9
+r1
+!s85 0
+31
+R13
+!s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/hilo_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/hilo_reg.v|
+!i113 0
+R10
+R3
+vid
+R12
+!i10b 1
+!s100 D^:PEo7h28aM8ncPMJm;D3
+IgzL42;4gm>Y<Al[JhRaCO2
+R6
+R7
+w1630487534
+8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/id.v
+FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/id.v
+L0 7
+R9
+r1
+!s85 0
+31
+R13
+!s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/id.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/id.v|
+!i113 0
+R10
+R3
+vid_ex
+R12
+!i10b 1
+!s100 6iOLn3TGP^S;a@PoFPXiT0
+ICW815zfGh<7U97=PhgK123
+R6
+R7
+R8
+8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/id_ex.v
+FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/id_ex.v
+L0 6
+R9
+r1
+!s85 0
+31
+R13
+!s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/id_ex.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/id_ex.v|
+!i113 0
+R10
+R3
+vif_id
+Z14 !s110 1630913438
+!i10b 1
+!s100 iRLkQ3h`=nn`hc<l1PCCW3
+IbMm]Tc_K_]a;`:NJXQkaH1
+R6
+R7
+R8
+8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/if_id.v
+FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/if_id.v
+L0 7
+R9
+r1
+!s85 0
+31
+R13
+!s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/if_id.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/if_id.v|
+!i113 0
+R10
+R3
+vinst_rom
+R14
+!i10b 1
+!s100 ;NkdTL>SZVDknA^:MJfWn0
+IT2ki]F^e_<f9I7P4QMYRX3
+R6
+R7
+w1630811734
+8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/inst_rom.v
+FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/inst_rom.v
+L0 13
+R9
+r1
+!s85 0
+31
+Z15 !s108 1630913438.000000
+!s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/inst_rom.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/inst_rom.v|
+!i113 0
+R10
+R3
+vmem
+R14
+!i10b 1
+!s100 M^ceS^2C?13;P2aXVW[oo3
+I7jZDfPm19G_Xn7Gak5B]N0
+R6
+R7
+R8
+8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/mem.v
+FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/mem.v
+L0 6
+R9
+r1
+!s85 0
+31
+R15
+!s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/mem.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/mem.v|
+!i113 0
+R10
+R3
+vmem_wb
+Z16 !s110 1630913439
+!i10b 1
+!s100 YzlU9lAC`X9j2_;ea_[ZA3
+IQ8JEkcBG;>bhhSZh=mS>Q0
+R6
+R7
+w1630677973
+8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/mem_wb.v
+FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/mem_wb.v
+L0 6
+R9
+r1
+!s85 0
+31
+R15
+!s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/mem_wb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/mem_wb.v|
+!i113 0
+R10
+R3
+vopenmips
+R16
+!i10b 1
+!s100 Qdmb9VSRe4Z<@=LAjWG^e3
+ITV7QRlEhW=NR2a4n]=H8[1
+R6
+R7
+w1630725073
+8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/openmips.v
+FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/openmips.v
+L0 17
+R9
+r1
+!s85 0
+31
+Z17 !s108 1630913439.000000
+!s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/openmips.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/openmips.v|
+!i113 0
+R10
+R3
+vopenmips_min_sopc
+R16
+!i10b 1
+!s100 [[C1b<d2L4Smki5NGTj?_2
+I4:gEFMzVO49?o<ReU]]6Q2
+R6
+R7
+R8
+8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/openmips_min_sopc.v
+FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/openmips_min_sopc.v
+L0 2
+R9
+r1
+!s85 0
+31
+R17
+!s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/openmips_min_sopc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/openmips_min_sopc.v|
+!i113 0
+R10
+R3
+vopenmips_min_sopc_tb
+R16
+!i10b 1
+!s100 fTinJeBU[d7^_j[aG212V1
+I2Ik`jDV6;8FLf_39?ZZF72
+R6
+R7
+w1630752407
+8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/openmips_min_sopc_tb.v
+FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/openmips_min_sopc_tb.v
+L0 4
+R9
+r1
+!s85 0
+31
+R17
+!s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/openmips_min_sopc_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/openmips_min_sopc_tb.v|
+!i113 0
+R10
+R3
+vpc_reg
+Z18 !s110 1630913440
+!i10b 1
+!s100 z65KkzHWM;^Xj:b;49zMd3
+I[ic9Ld43SbzhBlekU@X7R3
+R6
+R7
+R8
+8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/pc_reg.v
+FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/pc_reg.v
+L0 7
+R9
+r1
+!s85 0
+31
+R17
+!s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/pc_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/pc_reg.v|
+!i113 0
+R10
+R3
+vregfile
+R18
+!i10b 1
+!s100 D0J?oelmVEjP]X71fiHSH0
+IhL7MM23dWfj1Be4iVcDhc0
+R6
+R7
+R8
+8C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/regfile.v
+FC:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/regfile.v
+L0 7
+R9
+r1
+!s85 0
+31
+!s108 1630913440.000000
+!s107 defines.v|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/regfile.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/zhiyuan/Desktop/cpu/codes/Chapter7_3/regfile.v|
+!i113 0
+R10
+R3
